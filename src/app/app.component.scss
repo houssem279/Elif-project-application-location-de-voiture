@@ -1,0 +1,28 @@
+
+
+.navbar-title {
+  color: aliceblue; /* Maintain the original color */
+}
+
+.navbar-title a {
+  text-decoration: none; /* Remove underline from anchor tag */
+  font-size: 20px; /* Maintain the original font size */
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links a {
+  color: #ffffff; /* Maintain white color for links */
+  background-color: transparent; /* Maintain transparent background */
+  border-color: transparent; /* Maintain no border */
+  font-size: 20px; /* Maintain the original font size */
+  text-decoration: none; /* Remove underline from anchor tags */
+  margin-left: 1rem; /* Adjust spacing between links */
+}
+
+.nav-links a.active {
+  font-weight: bold; /* Add visual emphasis for active links (optional) */
+}

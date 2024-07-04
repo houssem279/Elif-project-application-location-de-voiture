@@ -1,0 +1,58 @@
+// post-car.component.scss
+
+// Styles généraux pour le formulaire
+.parent {
+    padding: 20px;
+}
+
+h2 {
+    text-align: center; // Centrer le titre "Post Car"
+}
+
+.child {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.imgDiv {
+    margin-bottom: 20px;
+}
+
+// Styles pour les boutons
+.login-form-button {
+    margin-top: 20px;
+}
+
+// Styles pour les inputs et selects
+nz-form-control {
+    width: 100%;
+    display: flex; // Utilisation de flexbox pour centrer les éléments
+    justify-content: center; // Centrer horizontalement
+}
+
+nz-select,
+input[nz-input],
+nz-year-picker,
+textarea[nz-input] {
+    width: 100%;
+}
+
+// Styles pour les erreurs
+.nz-error-tip {
+    color: red;
+}
+
+// Media queries pour la réactivité
+@media screen and (max-width: 768px) {
+    .profile-badge {
+        text-align: center; // Centrer le badge de profil sur les petits écrans
+    }
+    .upload-label {
+        margin-bottom: 10px;
+    }
+    nz-form-item {
+        margin-bottom: 10px;
+    }
+}

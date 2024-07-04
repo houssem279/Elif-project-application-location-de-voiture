@@ -1,0 +1,34 @@
+.container {
+    background-color: #F8F8F8;
+    min-height: 91vh;
+  
+    .child {
+      margin-top: 10px;
+  
+      .profile {
+        height: 130px;
+        width: 200px; /* Fixed the missing 'px' in width */
+        border-radius: 10px;
+      }
+  
+      h2 {
+        cursor: pointer;
+        color: #108ee9;
+      }
+  
+      hr {
+        margin: 10px 0;
+        border: none;
+        border-top: 1px solid #ccc;
+      }
+  
+      .button-group {
+        float: right;
+  
+        button {
+          margin-left: 10px;
+        }
+      }
+    }
+  }
+  

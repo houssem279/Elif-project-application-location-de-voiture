@@ -1,0 +1,40 @@
+
+  
+  
+  .parent {
+    width: 400px; /* Maintain desired form width */
+    margin: 3rem auto 0; /* Maintain margins for positioning */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  nz-form {
+    /* Removed unnecessary width setting */
+    padding: 0; /* Adjust padding if needed for form elements */
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    /* Removed border */
+    border: none;
+    /* ... (Other styles remain the same) */
+  }
+  
+  .login-form-button {
+
+    width: 100%; /* Set button width to 100% of parent container */
+    background-color: #003973;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center; 
+    font-weight: bold; 
+  }
+  

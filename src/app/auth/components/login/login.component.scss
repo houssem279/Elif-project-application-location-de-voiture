@@ -1,0 +1,50 @@
+.bg {
+    /* Ajoutez les styles de votre élément "bg" ici */
+  }
+  
+  .parent {
+    width: 400px; /* Maintient la largeur du formulaire */
+    margin: 3rem auto 0; /* Marge pour positionner le formulaire */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    h1 {
+      margin-bottom: 1.5rem; /* Ajoute un espacement entre le titre et le formulaire */
+    }
+  }
+  
+  nz-form {
+    padding: 0; /* Supprime le rembourrage par défaut */
+  }
+  
+  .input-group {
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      border: none;
+      border-bottom: 1px solid #ccc; /* Ajoute une bordure en bas pour les champs */
+      margin-bottom: 1rem; /* Ajoute un espacement entre les champs */
+      width: 100%; /* Fait en sorte que les champs remplissent la largeur */
+      padding: 8px; /* Ajuste le rembourrage des champs */
+    }
+  }
+  
+  .signup-form-button {
+    width: 100%;
+    background-color: #003973;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px 0; /* Ajuste le rembourrage du bouton */
+    margin-bottom: 1rem; /* Ajoute un espacement entre le bouton et le lien de connexion */
+  }
+  
